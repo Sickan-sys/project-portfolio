@@ -153,15 +153,16 @@ footer p {
     text-align: center;
     font-size: 15px;
 }
-media (min-width: 670px) {
-    .portrait img{
-        margin-right: 200px;
-    }
-        .intro-card {
-        left: 10px;
-    }
-        .projects, .thoughts {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between; 
-    }
+@media (min-width: 670px) {
+.portrait img {
+    margin-right: 200px;
+}
+.intro-card {
+    left: 10px;
+}
+.projects, .thoughts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+}   
